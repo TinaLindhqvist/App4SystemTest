@@ -1,9 +1,7 @@
 applications:
-- name: <new name>
-  framework: node
+- framework: node
   runtime: node08
   memory: 256MB
   instances: 1
-  host: <new name>
   path: .
   command: node app.js
